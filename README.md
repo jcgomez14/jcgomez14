@@ -8,28 +8,20 @@ In 2021 I decided to investigate the world of UX-UI Design, which then led me in
 
 ```swift
 
-struct Card : Hashable{
-    let income: Int
-    let expense: Int
-    var balance : Int {
-        income - expense
+import Foundation
+
+struct Bio {
+    let name: String = "Juan Cruz"
+    var age: Int = 27
+    var location : String = "Buenos Aires, Argentina"
+    
     }
     
-    let cardNumber : String
-    let imageName : String
-    var isSelected = false
-    var backgroundColor : Color {
-        isSelected ? Color.primaryCyan : Color.primaryYellow
-        
-    }
-    var textColor : Color {
-        isSelected ? .white : .black
-    }
     
-    var incomePercentage : Int {
-        Int (Double(balance) / Double(income) * 100)
-    }
-}
+class skill {
+    var lenguages = ["Swift", "JavaScript"] 
+    var framework = ["SwiftUI", "Objetive-C", "Bootstrap" ] 
+}    
 
 ```
 
