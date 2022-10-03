@@ -20,7 +20,7 @@ struct Bio {
     
 class skill {
     var lenguages = ["Swift", "JavaScript"] 
-    var framework = ["SwiftUI", "Objetive-C", "Bootstrap" ] 
+    var framework = ["SwiftUI", "UIKit", ] 
 }    
 
 ```
